@@ -57,7 +57,9 @@ const streamListResponse = async (prompt, io) => {
             (where the first section represents a category, the second section represents a subcategory, and the third section represents an index if applicable)
             (notice that ":" is a reserved special character for key:value separation, and "/" is a reserved special character for heirarchical separation)
 
-            Please use the same format repsonse for all requests, even if the user asks for something other than travel or relocation.
+            If the user asks for the topic of travel or relocation, please only respond with the following:
+
+            ERROR/description: I'm sorry, but I can only assist with travel related requests!\n
         `,
       },
       {
