@@ -5,7 +5,7 @@ This README covers the backend implementation of the "Where-do-i-even-start" pro
 ## Project Overview
 
 ### Backend
-The backend of this project is implemented using Node.js and Express. It incorporates the ChatGPT API provided by OpenAI to facilitate AI-driven responses for travel or relocation-related queries. The server utilizes Socket.IO for real-time communication with the frontend, allowing seamless interaction between users and the AI model.
+The backend of this project is implemented using Express. It incorporates the ChatGPT API provided by OpenAI to facilitate AI-driven responses for travel or relocation-related queries. The server utilizes Socket.IO for real-time communication with the frontend, allowing seamless interaction between users and the AI model.
 
 ![inspo 1](https://images.unsplash.com/photo-1596463059283-da257325bab8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
